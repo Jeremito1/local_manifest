@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
 
  <!-- Trees -->
 
-<project path="device/xiaomi/garden" name="Jeremito1/android_device_xiaomi_garden.git" remote="github" revision="lineage-17.1-permissive
-
-default" />
-
-<project path="vendor/xiaomi/garden" name="Jeremito1/proprietary_vendor_xiaomi_garden.git" remote="github" revision="lineage-17.1-permissive
-
-default" />
+<project path="device/xiaomi/garden" name="iskandarasri03/android_device_xiaomi_garden.git" remote="github" revision="10" />
+<project path="vendor/xiaomi/garden" name="iskandarasri03/proprietary_vendor_xiaomi_garden.git" remote="github" revision="10" />
 
 </manifest>
+
+
 
  
