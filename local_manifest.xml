@@ -3,7 +3,7 @@
 
  <!-- Trees -->
 
-<project path="device/xiaomi/garden" name="Jeremito1/android_device_xiaomi_garden.git" remote="github" revision="kraken" />
+<project path="device/xiaomi/garden" name="Jeremito1/android_device_xiaomi_garden.git" remote="github" revision="aosp" />
 <project path="vendor/xiaomi/garden" name="Jeremito1/android_vendor_xiaomi_garden.git" remote="github" revision="eleven" />
 
 </manifest>
