@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
- <!-- Trees -->
-
-<project path="device/xiaomi/garden" name="Jeremito1/android_device_xiaomi_garden.git" remote="github" revision="twelve" />
-<project path="vendor/xiaomi/garden" name="Jeremito1/android_vendor_xiaomi_garden.git" remote="github" revision="twelve" />
-
+ <!--Remote-->
+ <remote name="Jeremito1" fetch="https://github.com/Jeremito1" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ 
+ <!--Trees-->
+ <!-- Device Tree -->
+ <project path="device/xiaomi/garden" name="android_device_xiaomi_garden" remote="Jeremito1" revision="main" />
+ 
+ <!-- Vendor tree -->
+ <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden" remote="Jeremito1" revision="main" />
+ 
 </manifest>
