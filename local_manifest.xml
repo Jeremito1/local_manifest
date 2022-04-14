@@ -6,9 +6,9 @@
  
  <!--Trees-->
  <!-- Device Tree -->
- <project path="device/xiaomi/garden" name="android_device_xiaomi_garden" remote="alternoegraha" revision="twelve" />
+ <project path="device/xiaomi/garden" name="android_device_xiaomi_garden" remote="alternoegraha" revision="ten" />
  
  <!-- Vendor tree -->
- <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden" remote="Yukina-Supremacy" revision="twelve" />
+ <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden" remote="Yukina-Supremacy" revision="ten" />
  
 </manifest>
