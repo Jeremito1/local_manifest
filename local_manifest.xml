@@ -2,13 +2,12 @@
 <manifest>
  <!--Remote-->
  <remote name="Jeremito1" fetch="https://github.com/Jeremito1" />
- <remote name="Yukina-Supremacy" fetch="https://github.com/Yukina-Supremacy" />
- 
+
  <!--Trees-->
  <!-- Device Tree -->
  <project path="device/xiaomi/garden" name="device_xiaomi_garden" remote="Jeremito1" revision="cerredroi-once" />
  
  <!-- Vendor tree -->
- <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden" remote="Yukina-Supremacy" revision="eleven" />
+ <project path="vendor/xiaomi/garden" name="proprietary_vendor_xiaomi_garden" remote="Jeremito1" revision="11" />
  
 </manifest>
