@@ -13,7 +13,6 @@
         <project path="kernel/xiaomi/sm6225-common" name="dblenk-project/kernel_xiaomi_sm6225-common_header" remote="blen" revision="lineage-19.1" />
 
         <!-- qcom-sepolicy -->
-        <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="lineage-20.0" remote="linos" />
 
 </manifest>
