@@ -2,6 +2,7 @@
 <manifest>
           
         <remote name="dblenk9"
+        <remote name="LineageOS"
                 fetch="https://github.com" />
 
         <!-- Sync trees -->
@@ -13,6 +14,6 @@
 
         <!-- qcom-sepolicy -->
         <remove-project name="android_device_qcom_sepolicy" />
-        <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" revision="lineage-20.0" remote="dblenk9" />
+        <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" revision="lineage-20.0" remote="LineageOS" />
 
 </manifest>
