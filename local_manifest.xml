@@ -2,16 +2,20 @@
 <manifest>
           
   <!-- Remotes -->
-  <remote name="blen" fetch="https://github.com/dblenk-project" />
+  <remote name="org" fetch="https://github.com/shield44-project" />
+  <remote name="keret" fetch="https://github.com/Notkerd69" />
   <remote name="linos" fetch="https://github.com/LineageOS" />
+  <remote name="Pe-causa" fetch="https://github.com/PixelExperience-Devices" />
+  
+  <!-- Device Trees -->
+        <project name="device_xiaomi_fog" path="device/xiaomi/fog" remote="keret" revision="thirteen" />
 
-        <!-- Sync trees -->
-        <project path="device/xiaomi/fog" name="dblenk-project/device_xiaomi_fog" remote="blen" revision="lineage-20.0" />
-        <project path="vendor/xiaomi/fog" name="dblenk-project/vendor_xiaomi_fog" remote="blen" revision="lineage-20.0" />
-        <project path="device/xiaomi/sm6225-common" name="dblenk-project/device_xiaomi_sm6225-common" remote="blen" revision="13" />
-        <project path="vendor/xiaomi/sm6225-common" name="dblenk-project/vendor_xiaomi_sm6225-common" remote="blen" revision="lineage-20.0" />
-        <project path="kernel/xiaomi/sm6225-common" name="dblenk-project/kernel_xiaomi_sm6225-common_header" remote="blen" revision="lineage-19.1" />
-
+   <!-- Vendor Trees -->
+        <project name="vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="org" revision="thirteen" />
+               
+   <!-- kernel Trees -->
+        <project name="kernel_xiaomi_spes" path="kernel/xiaomi/bengal" remote="Pe-causa" revision="thirteen" />
+          
         <!-- qcom-sepolicy -->
         <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="lineage-20.0" remote="linos" />
 
