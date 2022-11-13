@@ -4,7 +4,6 @@
   <!-- Remotes -->
   <remote name="org" fetch="https://github.com/shield44-project" />
   <remote name="keret" fetch="https://github.com/Notkerd69" />
-  <remote name="linos" fetch="https://github.com/LineageOS" />
   <remote name="Pe-causa" fetch="https://github.com/PixelExperience-Devices" />
   
   <!-- Device Trees -->
@@ -16,7 +15,4 @@
    <!-- kernel Trees -->
         <project name="kernel_xiaomi_spes" path="kernel/xiaomi/bengal" remote="Pe-causa" revision="thirteen" />
           
-        <!-- qcom-sepolicy -->
-        <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="lineage-20.0" remote="linos" />
-
 </manifest>
