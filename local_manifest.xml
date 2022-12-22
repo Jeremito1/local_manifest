@@ -10,10 +10,7 @@
                 fetch="https://gitlab.com" />
         <remote name="Evocringe"
           fetch="https://github.com/Evolution-X" />
-	
-	<!-- Remove some modules -->
-	<remove-project name="platform/packages/modules/Bluetooth"/>
-	
+
         <!-- Sync trees -->
         <project path="device/xiaomi/fog" name="Notkerd69/device_xiaomi_fog" remote="dblenk9" revision="cobus" />
         <project path="vendor/xiaomi/fog" name="Notkerd69/vendor_xiaomi_fog" remote="dblenk9" revision="lineage-20.0" />
@@ -23,6 +20,7 @@
 
         <!-- Extra -->
         <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="Evocringe" revision="tiramisu" />
+        <remove-project name="packages/modules/Bluetooth"/>
         <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="me" revision="thirteen"/>
        
         <!--clange-->
