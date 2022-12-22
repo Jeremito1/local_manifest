@@ -11,6 +11,9 @@
         <remote name="Evocringe"
           fetch="https://github.com/Evolution-X" />
 	
+	<!-- Remove some modules -->
+	<remove-project name="platform/packages/modules/Bluetooth"/>
+	
         <!-- Sync trees -->
         <project path="device/xiaomi/fog" name="Notkerd69/device_xiaomi_fog" remote="dblenk9" revision="cobus" />
         <project path="vendor/xiaomi/fog" name="Notkerd69/vendor_xiaomi_fog" remote="dblenk9" revision="lineage-20.0" />
