@@ -10,7 +10,7 @@
                 fetch="https://gitlab.com" />
         <remote name="Evocringe"
           fetch="https://github.com/Evolution-X" />
-        <remote name="arrow"
+        <remote name="ArrowOS"
           fetch="https://github.com/ArrowOS" />
 
 
@@ -32,7 +32,7 @@
         <project path="bionic" name="ThakurRahulSingh/android_bionic" remote="github" revision="13" />
 
         <remove-project name="packages/modules/Bluetooth"/>
-        <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="arrow" revision="arrow-13.0"/>
+        <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="ArrowOS" revision="arrow-13.0"/>
 
         <remove-project name="android_packages_services_Telecomm" />
         <project path="packages/services/Telecomm" name="ThakurRahulSingh/android_packages_services_Telecomm" remote="github" revision="13" />
