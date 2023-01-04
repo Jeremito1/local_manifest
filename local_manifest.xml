@@ -18,7 +18,7 @@
   <project path="kernel/xiaomi/sm6225-common" name="kernel_xiaomi_sm6225-common_header" remote="dblenk9" revision="lineage-19.1" clone-depth="1" />
      
   <!-- hardware xiaomi -->
-  <project path="hardware/xiaomi" name="dblenk-project/hardware_xiaomi" remote="dblenk9" revision="lineage-20" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="dblenk9" revision="lineage-20" />
  
   <!-- Prebuilt Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="scnprh" revision="master" clone-depth="1" />
