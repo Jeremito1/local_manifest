@@ -6,7 +6,8 @@
   <remote name="org" fetch="https://github.com/shield44-project" />
   <remote name="keret" fetch="https://github.com/Notkerd69" />
   <remote name="Pe-causa" fetch="https://github.com/PixelExperience-Devices" />
-  
+  <remote name="scnprh" fetch="https://gitlab.com" />
+          
   <!-- Device Trees -->
         <project name="device_xiaomi_fog-144" path="device/xiaomi/fog" remote="keret" revision="test" />
         <project name="device_qcom_common" path="device/qcom/common" remote="Pe-causa" revision="thirteen" />
