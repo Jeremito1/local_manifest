@@ -2,17 +2,26 @@
 <manifest>
           
   <!-- Remotes -->
+  <remote name="dblenk9" fetch="https://github.com/dblenk-project" />
   <remote name="org" fetch="https://github.com/shield44-project" />
   <remote name="keret" fetch="https://github.com/Notkerd69" />
   <remote name="Pe-causa" fetch="https://github.com/PixelExperience-Devices" />
   
   <!-- Device Trees -->
-        <project name="device_xiaomi_fog" path="device/xiaomi/fog" remote="keret" revision="thirteen" />
+        <project name="device_xiaomi_fog-144" path="device/xiaomi/fog" remote="keret" revision="test" />
+        <project name="device_qcom_common" path="device/qcom/common" remote="Pe-causa" revision="thirteen" />
 
    <!-- Vendor Trees -->
         <project name="vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="org" revision="thirteen" />
                
    <!-- kernel Trees -->
-        <project name="kernel_xiaomi_spes" path="kernel/xiaomi/bengal" remote="Pe-causa" revision="thirteen" />
+        <project name="device_xiaomi_fog-kernel" path="device/xiaomi/fog-kernel" remote="org" revision="thirteen" />
+        <project name="kernel_xiaomi_spes" path="kernel/xiaomi/fog" remote="Pe-causa" revision="thirteen" />
+                    
+  <!-- hardware xiaomi -->
+        <project path="hardware/xiaomi" name="dblenk-project/hardware_xiaomi" remote="dblenk9" revision="lineage-20" />
+
+  <!-- Prebuilt Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="scnprh" revision="master" clone-depth="1" />
           
 </manifest>
