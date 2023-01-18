@@ -9,7 +9,7 @@
                 fetch="https://gitlab.com" />
 
   <!-- Sync trees -->
-  <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="Notkerd69" revision="new" clone-depth="1" />
+  <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="Notkerd69" revision="test1" clone-depth="1" />
   <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="dblenk9" revision="lineage-20" clone-depth="1" />
   <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="Notkerd69" revision="new" clone-depth="1" />
   <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="dblenk9" revision="lineage-20" clone-depth="1" />
