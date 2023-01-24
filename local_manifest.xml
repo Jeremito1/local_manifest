@@ -9,7 +9,7 @@
   <remote name="scnprh" fetch="https://gitlab.com" />
   
   <!-- Device Trees -->
-        <project name="device_xiaomi_fog" path="device/xiaomi/fog" remote="keret" revision="lineage-20.0" />
+        <project name="device_xiaomi_fog-1" path="device/xiaomi/fog" remote="keret" revision="lineage-20.0" />
 		<project name="device_qcom_common" path="device/qcom/common" remote="Pe-Debices" revision="thirteen" />
 		<project name="device_qcom_qssi" path="device/qcom/qssi" remote="Pe-Debices" revision="thirteen" />
 		<project name="device_qcom_vendor-common" path="device/qcom/vendor-common" remote="Pe-Debices" revision="thirteen" />
@@ -28,5 +28,11 @@
 	
    <!-- Prebuilt Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="scnprh" revision="master" clone-depth="1" />
-          
+ 
+   <!-- Pe Hals -->
+        <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="Pixel" revision="thirteen" />
+        <project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_bengal_display" remote="Pixel" revision="thirteen" />
+		<project path="hardware/qcom-caf/bengal/gps" name="hardware_qcom-caf_bengal_gps" remote="Pixel" revision="thirteen" />
+		<project path="hardware/qcom-caf/bengal/media" name="hardware_qcom-caf_bengal_media" remote="Pixel" revision="thirteen" />
+		
 </manifest>
