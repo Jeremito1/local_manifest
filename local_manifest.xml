@@ -5,7 +5,7 @@
   <remote name="Pixel" fetch="https://github.com/PixelExperience" />
   <remote name="keret" fetch="https://github.com/Notkerd69" />
   <remote name="Pe-Debices" fetch="https://github.com/PixelExperience-Devices" />
-  <remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org" />
+  <remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
   <remote name="scnprh" fetch="https://gitlab.com" />
   
   <!-- Device Trees -->
