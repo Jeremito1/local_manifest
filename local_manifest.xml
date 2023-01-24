@@ -2,17 +2,31 @@
 <manifest>
           
   <!-- Remotes -->
-  <remote name="org" fetch="https://github.com/shield44-project" />
+  <remote name="Pixel" fetch="https://github.com/PixelExperience" />
   <remote name="keret" fetch="https://github.com/Notkerd69" />
-  <remote name="Pe-causa" fetch="https://github.com/PixelExperience-Devices" />
+  <remote name="Pe-Debices" fetch="https://github.com/PixelExperience-Devices" />
+  <remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org" />
+  <remote name="scnprh" fetch="https://gitlab.com" />
   
   <!-- Device Trees -->
-        <project name="device_xiaomi_fog" path="device/xiaomi/fog" remote="keret" revision="thirteen" />
+        <project name="device_xiaomi_fog" path="device/xiaomi/fog" remote="keret" revision="lineage-20.0" />
+		<project name="device_qcom_common" path="device/qcom/common" remote="Pe-Debices" revision="thirteen" />
+		<project name="device_qcom_qssi" path="device/qcom/qssi" remote="Pe-Debices" revision="thirteen" />
+		<project name="device_qcom_vendor-common" path="device/qcom/vendor-common" remote="Pe-Debices" revision="thirteen" />
+        <project name="device_xiaomi_fog-kernel" path="device/xiaomi/fog-kernel" remote="Pe-Debices" revision="thirteen" />
 
    <!-- Vendor Trees -->
-        <project name="vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="org" revision="thirteen" />
+        <project name="vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="pixel-devices-blobs" revision="thirteen" />
+		<project name="vendor_qcom_common" path="vendor/qcom/common" remote="pixel-devices-blobs" revision="thirteen" />
+		<project name="vendor_qcom_opensource_commonsys-intf_bluetooth" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="Pixel" revision="thirteen" />
                
    <!-- kernel Trees -->
-        <project name="kernel_xiaomi_spes" path="kernel/xiaomi/bengal" remote="Pe-causa" revision="thirteen" />
+        <project name="kernel_xiaomi_spes" path="kernel/xiaomi/fog" remote="Pe-Debices" revision="thirteen" />
+	
+   <!-- hardware xiaomi -->
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Pixel" revision="thirteen" />
+	
+   <!-- Prebuilt Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="scnprh" revision="master" clone-depth="1" />
           
 </manifest>
