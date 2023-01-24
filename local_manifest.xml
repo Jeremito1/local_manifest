@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
+ <!--Remote-->
+ <remote name="Notkerd69" fetch="https://github.com/Notkerd69" />
+
  <!-- Device Tree -->
- <project path="device/xiaomi/garden" name="Jeremito1/android_device_xiaomi_garden" remote="github" revision="twelve" />
+ <project path="device/xiaomi/dandelion" name="device_xiaomi_dandelion" remote="Notkerd69" revision="main" />
  
  <!-- Vendor tree -->
- <project path="vendor/xiaomi/garden" name="Yukina-Supremacy/android_vendor_xiaomi_garden" remote="github" revision="twelve" />
+ <project path="vendor/xiaomi/dandelion" name="vendor_xiaomi_dandelion" remote="Notkerd69" revision="main" />
  
 </manifest>
