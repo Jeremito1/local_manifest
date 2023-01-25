@@ -4,9 +4,9 @@
  <remote name="Notkerd69" fetch="https://github.com/Notkerd69" />
 
  <!-- Device Tree -->
- <project path="device/xiaomi/dandelion" name="device_xiaomi_dandelion" remote="Notkerd69" revision="main" />
+ <project path="device/xiaomi/garden" name="device_xiaomi_dandelion" remote="Notkerd69" revision="main" />
  
  <!-- Vendor tree -->
- <project path="vendor/xiaomi/dandelion" name="vendor_xiaomi_dandelion" remote="Notkerd69" revision="main" />
+ <project path="vendor/xiaomi/garden" name="vendor_xiaomi_dandelion" remote="Notkerd69" revision="main" />
  
 </manifest>
