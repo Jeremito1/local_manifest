@@ -9,7 +9,7 @@
   <remote name="scnprh" fetch="https://gitlab.com" />
   
   <!-- Device Trees -->
-        <project name="device_xiaomi_fog-1" path="device/xiaomi/fog" remote="keret" revision="lineage-20.0" />
+        <project name="device_xiaomi_fog-1" path="device/xiaomi/fog" remote="keret" revision="bootleg" />
 		<project name="device_qcom_common" path="device/qcom/common" remote="Pe-Debices" revision="thirteen" />
 		<project name="device_qcom_qssi" path="device/qcom/qssi" remote="Pe-Debices" revision="thirteen" />
 		<project name="device_qcom_vendor-common" path="device/qcom/vendor-common" remote="Pe-Debices" revision="thirteen" />
