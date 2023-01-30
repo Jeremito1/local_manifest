@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
+             
+        <remote name="Rinto02"
+                fetch="https://github.com/rinto02" />
+         <remote name="r450784d"
+                fetch="https://gitlab.com/rintokhan" />
         <remote name="dblenk9"
                 fetch="https://github.com/dblenk-project" />
         <remote name="Notkerd69"
@@ -15,5 +19,20 @@
      
   <!-- hardware xiaomi -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="dblenk9" revision="lineage-20" />
-       
+              
+  <!-- clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Rinto02" revision="main" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="r450784d" revision="master" clone-depth="1" />
+
+  <!-- Replacement -->
+
+   <remove-project name="frameworks_base" />
+   <project path="frameworks/base" name="boot_frameworks_base" remote="Rinto02" revision="tirimbino" />
+
+   <remove-project name="frameworks_native" />
+   <project path="frameworks/native" name="boot_frameworks_native" remote="Rinto02" revision="tirimbino" />
+        
+   <remove-project name="frameworks_av" />
+   <project path="frameworks/av" name="boot_frameworks_av" remote="Rinto02" revision="tirimbino" />
+
 </manifest>
