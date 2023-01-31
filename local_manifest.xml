@@ -24,7 +24,6 @@
 	    <project name="vendor_qcom_opensource_commonsys-intf_bluetooth" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="Pixel" revision="thirteen" />
 	    <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="Pixel" revision="thirteen" />
 	    <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="Pixel" revision="thirteen" />
-	    <project name="vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="Pixel" revision="thirteen" />
 	    <project name="vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="Pixel" revision="thirteen" />
 	    <project name="vendor_qcom_opensource_commonsys_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="Pixel" revision="thirteen" />
 	    <project name="vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" remote="Pixel" revision="thirteen" />
