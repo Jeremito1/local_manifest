@@ -52,8 +52,6 @@
    <!-- hardware xiaomi -->
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Pixel" revision="thirteen" />
 
-   <remove-project name="hardware_qcom-caf_sm8250" />
-	
    <!-- Pe Hals -->
         <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="Pixel" revision="thirteen" />
         <project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_bengal_display" remote="Pixel" revision="thirteen" />
