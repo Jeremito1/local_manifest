@@ -32,7 +32,6 @@
         <project name="vendor_qcom_opensource_commonsys_dpm" path="vendor/qcom/opensource/commonsys/dpm" remote="Pixel" revision="thirteen" />
 
 
-
     <!-- NFC -->
 
         <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="mit" revision="13.0" />
@@ -52,6 +51,8 @@
 	
    <!-- hardware xiaomi -->
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Pixel" revision="thirteen" />
+
+   <remove-project name="hardware_qcom-caf_sm8250" />
 	
    <!-- Pe Hals -->
         <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="Pixel" revision="thirteen" />
