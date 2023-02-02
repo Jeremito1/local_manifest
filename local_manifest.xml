@@ -22,11 +22,9 @@
         <project name="vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="pixel-devices-blobs" revision="thirteen" />
 	    <project name="vendor_qcom_common" path="vendor/qcom/common" remote="pixel-devices-blobs" revision="thirteen" />
 	    <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="Pixel" revision="thirteen" />
-	    <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="Pixel" revision="thirteen" />
     	<project name="vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="Pixel" revision="thirteen" />
     	<project name="vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="Pixel" revision="thirteen" />
         <project name="vendor_qcom_opensource_commonsys_dpm" path="vendor/qcom/opensource/commonsys/dpm" remote="Pixel" revision="thirteen" />
-
 
     <!-- NFC -->
 
@@ -46,7 +44,7 @@
         <project name="kernel_xiaomi_spes" path="kernel/xiaomi/fog" remote="Pe-Debices" revision="thirteen" />
 	
    <!-- hardware xiaomi -->
-        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Pixel" revision="thirteen" />
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="CHRISL7" revision="thirteen" />
 
    <!-- Pe Hals -->
         <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="Pixel" revision="thirteen" />
@@ -54,7 +52,7 @@
 	    <project path="hardware/qcom-caf/bengal/gps" name="hardware_qcom-caf_bengal_gps" remote="Pixel" revision="thirteen" />
 	    <project path="hardware/qcom-caf/bengal/media" name="hardware_qcom-caf_bengal_media" remote="Pixel" revision="thirteen" />
 	
-   <!-- Prebuilt Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="scnprh" revision="master" clone-depth="1" />
- 
+	    <remove-project name="hardware/qcom-caf/sm8250" />
+		<remove-project name="hardware/xiaomi/megvii" />
+	
 </manifest>
