@@ -22,7 +22,6 @@
 	    <project name="vendor_qcom_common" path="vendor/qcom/common" remote="pixel-devices-blobs" revision="thirteen" />
 	    <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="Pixel" revision="thirteen" />
     	<project name="vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="Pixel" revision="thirteen" />
-    	<project name="vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="Pixel" revision="thirteen" />
         <project name="vendor_qcom_opensource_commonsys_dpm" path="vendor/qcom/opensource/commonsys/dpm" remote="Pixel" revision="thirteen" />
 
     <!-- NFC -->
