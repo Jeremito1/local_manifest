@@ -42,7 +42,7 @@
         <project name="kernel_xiaomi_spes" path="kernel/xiaomi/fog" remote="Pe-Debices" revision="thirteen" />
 	
    <!-- hardware xiaomi -->
-        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="CHRISL7" revision="thirteen" />
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Pixel" revision="thirteen" />
 	
    <!-- Pe Hals -->
         <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="Pixel" revision="thirteen" />
