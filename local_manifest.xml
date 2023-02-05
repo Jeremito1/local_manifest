@@ -2,57 +2,15 @@
 <manifest>
           
   <!-- Remotes -->
-       <remote name="Pixel" fetch="https://github.com/PixelExperience" />
-       <remote name="keret" fetch="https://github.com/Notkerd69" />
-       <remote name="CHRISL7" fetch="https://github.com/CHRISL7" />
-       <remote name="Pe-Debices" fetch="https://github.com/PixelExperience-Devices" />
-       <remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
-       <remote name="scnprh" fetch="https://gitlab.com" />
-       <remote name="mit" fetch="https://github.com" />
-  
-  <!-- Device Trees -->
-        <project name="device_xiaomi_fog-1" path="device/xiaomi/fog" remote="keret" revision="xtendedi" />
-	    <project name="device_qcom_wlan" path="device/qcom/wlan" remote="CHRISL7" revision="thirteen" />
-	    <project name="device_qcom_common" path="device/qcom/common" remote="Pe-Debices" revision="thirteen" />
-	    <project name="device_qcom_qssi" path="device/qcom/qssi" remote="Pe-Debices" revision="thirteen" />
-	    <project name="device_qcom_vendor-common" path="device/qcom/vendor-common" remote="Pe-Debices" revision="thirteen" />
-        <project name="device_xiaomi_fog-kernel" path="device/xiaomi/fog-kernel" remote="Pe-Debices" revision="thirteen" />
+  <remote name="blen" fetch="https://github.com/dblenk-project" />
+  <remote name="Notkerd69" fetch="https://github.com/Notkerd69" />
 
-   <!-- Vendor Trees -->
-        <project name="vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="pixel-devices-blobs" revision="thirteen" />
-	    <project name="vendor_qcom_common" path="vendor/qcom/common" remote="pixel-devices-blobs" revision="thirteen" />
-	    <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="Pixel" revision="thirteen" />
-    	<project name="vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="Pixel" revision="thirteen" />
-    	<project name="vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="Pixel" revision="thirteen" />
-        <project name="vendor_qcom_opensource_commonsys_dpm" path="vendor/qcom/opensource/commonsys/dpm" remote="Pixel" revision="thirteen" />
+        <!-- Sync trees -->
+        <project path="device/xiaomi/fog" name="Notkerd69/device_xiaomi_fog-2" remote="Notkerd69" revision="xtended" />
+        <project path="vendor/xiaomi/fog" name="Notkerd69/vendor_xiaomi_fog" remote="Notkerd69" revision="13" />
+        <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_sm6225-common_header" remote="blen" revision="lineage-19.1" />
 
-    <!-- NFC -->
-
-        <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="mit" revision="13.0" />
-        <project path="vendor/nxp/secure_element" name="crdroidandroid/android_vendor_nxp_secure_element" remote="mit" revision="13.0" />
-        <project path="vendor/nxp/secure_element_extns" name="crdroidandroid/android_vendor_nxp_secure_element_extns" remote="mit" revision="13.0" />
-        <project path="vendor/nxp/opensource/interfaces/nfc" name="crdroidandroid/android_vendor_nxp_interfaces_opensource_nfc" remote="mit" revision="13.0" />
-        <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="crdroidandroid/android_vendor_nxp_opensource_external_libnfc-nci" remote="mit" revision="13.0" />
-        <project path="vendor/nxp/opensource/commonsys/frameworks" name="crdroidandroid/android_vendor_nxp_opensource_frameworks" remote="mit" revision="13.0" />
-        <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="crdroidandroid/android_vendor_nxp_opensource_packages_apps_Nfc" remote="mit" revision="13.0" />
-        <project path="vendor/nxp/opensource/pn5xx/halimpl" name="crdroidandroid/android_vendor_nxp_opensource_halimpl" remote="mit" revision="13.0-pn5xx" />
-        <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="crdroidandroid/android_vendor_nxp_opensource_hidlimpl" remote="mit" revision="13.0-pn5xx" />
-        <project path="vendor/nxp/opensource/sn100x/halimpl" name="crdroidandroid/android_vendor_nxp_opensource_halimpl" remote="mit" revision="13.0-sn100x" />
-        <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="crdroidandroid/android_vendor_nxp_opensource_hidlimpl" remote="mit" revision="13.0-sn100x" />
-	
-   <!-- kernel Trees -->
-        <project name="kernel_xiaomi_spes" path="kernel/xiaomi/fog" remote="Pe-Debices" revision="thirteen" />
-	
-   <!-- hardware xiaomi -->
-        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="CHRISL7" revision="thirteen" />
-
-   <!-- Pe Hals -->
-        <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="Pixel" revision="thirteen" />
-        <project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_bengal_display" remote="Pixel" revision="thirteen" />
-	    <project path="hardware/qcom-caf/bengal/gps" name="hardware_qcom-caf_bengal_gps" remote="Pixel" revision="thirteen" />
-	    <project path="hardware/qcom-caf/bengal/media" name="hardware_qcom-caf_bengal_media" remote="Pixel" revision="thirteen" />
-	
-	    <remove-project name="hardware/qcom-caf/sm8250" />
-		<remove-project name="hardware/xiaomi/megvii" />
-	
+        <!-- hardware xiaomi -->
+        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="blen" revision="lineage-20" />
+		
 </manifest>
