@@ -12,10 +12,10 @@
 
   <!-- Sync trees -->
   <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="Notkerd69" revision="arros" clone-depth="1" />
-  <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="dblenk" revision="lineage-20.0" clone-depth="1" />
+  <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="dblenk" revision="lineage-20" clone-depth="1" />
    
   <!-- kernel headers -->       
-  <project path="kernel/xiaomi/fog" name="kernel_xiaomi_fog_header" remote="dblenk" revision="lineage-19.1" />
+  <project path="kernel/xiaomi/fog" name="kernel_xiaomi_fog_header" remote="dblenk" revision="lineage-20" />
      
   <!-- hardware xiaomi -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Agatha-Prjkt" revision="13" />
