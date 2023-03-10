@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-        <remote name="dblenk9"
+        <remote name="dblenk"
                 fetch="https://github.com/dblenk-project" />
         <remote name="Notkerd69"
                 fetch="https://github.com/Notkerd69" />
         <remote name="Agatha-Prjkt"
                 fetch="https://github.com/Agatha-Prjkt" />
-        <remote name="scnprh"
-                fetch="https://gitlab.com" />
+        <remote name="clang"
+                fetch="https://gitlab.com/Amritorock" />
 
   <!-- Sync trees -->
-  <project path="device/xiaomi/fog" name="device_xiaomi_fog-2" remote="Notkerd69" revision="testusb" clone-depth="1" />
-  <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="Notkerd69" revision="13" clone-depth="1" />
+  <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="dblenk" revision="lineage-20" clone-depth="1" />
+  <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="dblenk" revision="lineage-20" clone-depth="1" />
    
-   <!-- sm6225-common
-  <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="Notkerd69" revision="cdrod" clone-depth="1" />
-  <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="dblenk9" revision="lineage-20" clone-depth="1" /> -->
-          
   <!-- kernel headers -->       
-  <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_sm6225-common_header" remote="dblenk9" revision="lineage-19.1" />
+  <project path="kernel/xiaomi/fog" name="kernel_xiaomi_fog_header" remote="dblenk" revision="lineage-20" />
      
   <!-- hardware xiaomi -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Agatha-Prjkt" revision="13" />
 
-  <!-- Prebuilt Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="scnprh" revision="master" clone-depth="1" />
-          
+  <!-- (Clang) -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
