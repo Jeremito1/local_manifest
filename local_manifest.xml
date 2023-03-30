@@ -2,20 +2,23 @@
 <manifest>
 
         <!-- Just sync the trees lolkek -->
-        <project path="device/xiaomi/fog" name="CHRISL7/android_device_xiaomi_fog" remote="github" revision="thirteen" />
-		<project path="device/xiaomi/fog-kernel" name="CHRISL7/device_xiaomi_fog-kernel" remote="github" revision="main" />
+        <project path="device/xiaomi/fog" name="Notkerd69/android_device_xiaomi_fog-CR7" remote="github" revision="thirteen" />
+		<project path="device/xiaomi/fog-kernel" name="CHRISL7/device_xiaomi_fog-kernel" remote="github" revision="thirteen" />
 		<project path="device/xiaomi/sm6225-common" name="PixelExperience-Devices/device_xiaomi_sm6225-common" remote="github" revision="thirteen" />
 		<project path="kernel/xiaomi/sm6225" name="PixelExperience-Devices/kernel_xiaomi_sm6225" remote="github" revision="thirteen" />
-        <project path="vendor/xiaomi/fog" name="CHRISL7/proprietary_vendor_xiaomi_fog" remote="github" revision="main" />
-		<project path="vendor/xiaomi/sm6225-common" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" remote="gitlab" revision="main" />
-        
+        <project path="vendor/xiaomi/fog" name="CHRISL7/proprietary_vendor_xiaomi_fog" remote="github" revision="thirteen" />
+		
+		<!-- Gitlab --> 
+		<remote name="Pixel" fetch="https://gitlab.pixelexperience.org" />
+		<project path="vendor/qcom/common" name="android/vendor-blobs/vendor_qcom_common" remote="Pixel" revision="thirteen" />
+		<project path="vendor/xiaomi/sm6225-common" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" remote="Pixel" revision="thirteen" />
+		
 		<!-- QCUM/CUMMON Dependencies -->
 		<project path="device/qcom/common" name="PixelExperience-Devices/device_qcom_common" remote="github" revision="thirteen" />
 		<project path="device/qcom/common-sepolicy" name="PixelExperience-Devices/device_qcom_common-sepolicy" remote="github" revision="thirteen" />
 		<project path="device/qcom/qssi" name="PixelExperience-Devices/device_qcom_qssi" remote="github" revision="thirteen" />
 		<project path="device/qcom/vendor-common" name="PixelExperience-Devices/device_qcom_vendor-common" remote="github" revision="thirteen" />
 		<project path="device/qcom/wlan" name="PixelExperience-Devices/device_qcom_wlan" remote="github" revision="thirteen" />
-		<project path="vendor/qcom/common" name="android/vendor-blobs/vendor_qcom_common" remote="gitlab" revision="thirteen" />
 	    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="github" revision="thirteen" />
         <project path="vendor/qcom/opensource/core-utils" name="PixelExperience/vendor_qcom_opensource_core-utils" remote="github" revision="thirteen" />
         <project path="vendor/qcom/opensource/commonsys/dpm" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" remote="github" revision="thirteen" />
