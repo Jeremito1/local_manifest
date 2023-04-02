@@ -19,14 +19,13 @@
 		<project path="device/qcom/qssi" name="PixelExperience-Devices/device_qcom_qssi" remote="github" revision="thirteen" />
 		<project path="device/qcom/vendor-common" name="PixelExperience-Devices/device_qcom_vendor-common" remote="github" revision="thirteen" />
 		<project path="device/qcom/wlan" name="PixelExperience-Devices/device_qcom_wlan" remote="github" revision="thirteen" />
-	        <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="github" revision="thirteen" />
-                <project path="vendor/qcom/opensource/commonsys/dpm" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" remote="github" revision="thirteen" />
-
-		<!-- Pe-causa HALs -->
+	    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="github" revision="thirteen" />
+        
+		<!-- Pe-causa HALs
 		<project path="hardware/qcom-caf/bengal/audio" name="PixelExperience/hardware_qcom-caf_bengal_audio" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/display" name="PixelExperience/hardware_qcom-caf_bengal_display" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/gps" name="PixelExperience/hardware_qcom-caf_bengal_gps" remote="github" revision="thirteen" />
-		<project path="hardware/qcom-caf/bengal/media" name="PixelExperience/hardware_qcom-caf_bengal_media" remote="github" revision="thirteen" />
+		<project path="hardware/qcom-caf/bengal/media" name="PixelExperience/hardware_qcom-caf_bengal_media" remote="github" revision="thirteen" /> -->
 		
         <!-- hardware/ximi -->
         <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" />
