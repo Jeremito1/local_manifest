@@ -2,8 +2,8 @@
 <manifest>
 
         <!-- Just sync the trees lolkek -->
-        <project path="device/xiaomi/fog" name="Notkerd69/android_device_xiaomi_fog-CR7" remote="github" revision="thirteen" />
-		<project path="device/xiaomi/fog-kernel" name="dblenk-project/device_xiaomi_fog-kernel" remote="github" revision="13" />
+        <project path="device/xiaomi/fog" name="Notkerd69/android_device_xiaomi_fog-CR7" remote="github" revision="test-xt" />
+		<project path="device/xiaomi/fog-kernel" name="CHRISL7/device_xiaomi_fog-kernel" remote="github" revision="topaz" />
 		<project path="device/xiaomi/sm6225-common" name="PixelExperience-Devices/device_xiaomi_sm6225-common" remote="github" revision="thirteen" />
 		<project path="kernel/xiaomi/sm6225" name="PixelExperience-Devices/kernel_xiaomi_sm6225" remote="github" revision="thirteen" />
         <project path="vendor/xiaomi/fog" name="CHRISL7/proprietary_vendor_xiaomi_fog" remote="github" revision="thirteen" />
@@ -21,11 +21,11 @@
 		<project path="device/qcom/wlan" name="PixelExperience-Devices/device_qcom_wlan" remote="github" revision="thirteen" />
 	    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="github" revision="thirteen" />
         
-		<!-- Pe-causa HALs
+		<!-- Pe-causa HALs -->
 		<project path="hardware/qcom-caf/bengal/audio" name="PixelExperience/hardware_qcom-caf_bengal_audio" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/display" name="PixelExperience/hardware_qcom-caf_bengal_display" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/gps" name="PixelExperience/hardware_qcom-caf_bengal_gps" remote="github" revision="thirteen" />
-		<project path="hardware/qcom-caf/bengal/media" name="PixelExperience/hardware_qcom-caf_bengal_media" remote="github" revision="thirteen" /> -->
+		<project path="hardware/qcom-caf/bengal/media" name="PixelExperience/hardware_qcom-caf_bengal_media" remote="github" revision="thirteen" />
 		
         <!-- hardware/ximi -->
         <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" />
