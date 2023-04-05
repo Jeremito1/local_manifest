@@ -11,7 +11,7 @@
                 fetch="https://gitlab.com/Amritorock" />
 
   <!-- Sync trees -->
-  <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="dblenk" revision="lineage-20" clone-depth="1" />
+  <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="Notkerd69" revision="cdrod" clone-depth="1" />
   <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="dblenk" revision="lineage-20" clone-depth="1" />
    
   <!-- kernel headers -->       
