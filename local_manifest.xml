@@ -2,7 +2,7 @@
 <manifest>
 
         <!-- Just sync the trees lolkek -->
-        <project path="device/xiaomi/fog" name="Notkerd69/android_device_xiaomi_fog-CR7" remote="github" revision="test-xt" />
+        <project path="device/xiaomi/fog" name="Notkerd69/android_device_xiaomi_fog-CR7" remote="github" revision="cdrod" />
 		<project path="device/xiaomi/fog-kernel" name="dblenk-project/device_xiaomi_fog-kernel" remote="github" revision="13" />
 		<project path="device/xiaomi/sm6225-common" name="PixelExperience-Devices/device_xiaomi_sm6225-common" remote="github" revision="thirteen" />
 		<project path="kernel/xiaomi/sm6225" name="PixelExperience-Devices/kernel_xiaomi_sm6225" remote="github" revision="thirteen" />
@@ -28,8 +28,8 @@
 		<project path="hardware/qcom-caf/bengal/display" name="PixelExperience/hardware_qcom-caf_bengal_display" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/gps" name="PixelExperience/hardware_qcom-caf_bengal_gps" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/media" name="PixelExperience/hardware_qcom-caf_bengal_media" remote="github" revision="thirteen" />
-        <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" />
-        <project path="packages/resources/devicesettings" name="PixelExperience/packages_resources_devicesettings" remote="github" revision="thirteen" />
+	        <project path="hardware/xiaomi" name="Agatha-Prjkt/hardware_xiaomi" remote="github" revision="13" />
+
 
         <!-- Pro clag -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
