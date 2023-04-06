@@ -8,7 +8,7 @@
 		<project path="kernel/xiaomi/sm6225" name="PixelExperience-Devices/kernel_xiaomi_sm6225" remote="github" revision="thirteen" />
         <project path="vendor/xiaomi/fog" name="CHRISL7/proprietary_vendor_xiaomi_fog" remote="github" revision="thirteen" />
 		
-		<!-- Gitlab --> 
+		<!-- Gitlab -->
 		<remote name="Pixel" fetch="https://gitlab.pixelexperience.org" />
 		<project path="vendor/qcom/common" name="android/vendor-blobs/vendor_qcom_common" remote="Pixel" revision="thirteen" />
 		<project path="vendor/xiaomi/sm6225-common" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" remote="Pixel" revision="thirteen" />
@@ -33,6 +33,5 @@
 
         <!-- Pro clag -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-
+        
 </manifest>
