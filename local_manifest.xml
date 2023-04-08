@@ -28,12 +28,7 @@
 		<project path="hardware/qcom-caf/bengal/display" name="PixelExperience/hardware_qcom-caf_bengal_display" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/gps" name="PixelExperience/hardware_qcom-caf_bengal_gps" remote="github" revision="thirteen" />
 		<project path="hardware/qcom-caf/bengal/media" name="PixelExperience/hardware_qcom-caf_bengal_media" remote="github" revision="thirteen" />
-	    <project path="hardware/xiaomi" name="Agatha-Prjkt/hardware_xiaomi" remote="github" revision="13" />
-        <remove-project name="crdroidandroid/vendor_qcom_opensource_interfaces" path=vendor/qcom/opensource/interfaces" />
-		<project path="vendor/qcom/opensource/interfaces" name="PixelExperience/vendor_qcom_opensource_interfaces" remote="github" revision="thirteen" />
-		<remove-project name="crdroidandroid/vendor_qcom_opensource_fm-commonsys" path=vendor/qcom/opensource/fm-commonsys" />
-		<project path="vendor/qcom/opensource/fm-commonsys" name="PixelExperience/vendor_qcom_opensource_fm-commonsys" remote="github" revision="thirteen" />
-		
+
         <!-- Pro clag -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
         
