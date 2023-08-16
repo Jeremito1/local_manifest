@@ -2,12 +2,10 @@
 <manifest>
 
 		<!-- Device trees -->
-        <project path="device/xiaomi/fog" name="Notkerd69/device_xiaomi_fog-1" remote="github" revision="crdroid" />
-		<project path="device/xiaomi/fog-kernel" name="CHRISL7/device_xiaomi_fog-kernel" remote="github" revision="topaz" />
-		<project path="device/xiaomi/sm6225-common" name="Notkerd69/device_xiaomi_sm6225-common-1" remote="github" revision="rebase" />
-		<project path="kernel/xiaomi/sm6225" name="PixelExperience-Devices/kernel_xiaomi_6225" remote="github" revision="thirteen" />
-        <!-- <project path="vendor/xiaomi/fog" name="Notkerd69/proprietary_vendor_xiaomi_fog" remote="github" revision="thirteen" /> -->
-		<!-- <project path="vendor/xiaomi/sm6225-common" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" remote="Pixel" revision="thirteen" /> -->
+        	<project path="device/xiaomi/fog" name="Notkerd69/device_xiaomi_fog" remote="github" revision="thirteen" />
+		<project path="device/xiaomi/fog-kernel" name="Notkerd69/device_xiaomi_fog-kernel" remote="github" revision="13" />
+		<project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header" remote="github" revision="lineage-20" />
+        	<project path="vendor/xiaomi/fog" name="Notkerd69/vendor_xiaomi_fog" remote="github" revision="thirteen" />
 
 		<!-- QCOM COMMON Dependencies -->
 		<remote name="Pixel" fetch="https://gitlab.pixelexperience.org" />
