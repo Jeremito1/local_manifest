@@ -2,10 +2,11 @@
 <manifest>
 
 		<!-- Device trees -->
-        	<project path="device/xiaomi/fog" name="Notkerd69/device_xiaomi_fog" remote="github" revision="thirteen" />
-		<project path="device/xiaomi/fog-kernel" name="CHRISL7/device_xiaomi_fog-kernel" remote="github" revision="topaz" />
-		<project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header" remote="github" revision="lineage-20" />
-        	<project path="vendor/xiaomi/fog" name="Notkerd69/vendor_xiaomi_fog" remote="github" revision="thirteen" />
+        	<project path="device/xiaomi/stone" name="Notkerd69/device_xiaomi_stone-1" remote="github" revision="thirteen" />
+        	<project path="device/xiaomi/sm6375" name="Notkerd69/device_xiaomi_sm6375-common" remote="github" revision="thirteen" />
+		<project path="device/xiaomi/stone-kernel" name="CHRISL7/device_xiaomi_stone-kernel" remote="github" revision="topaz" />
+		<project path="kernel/xiaomi/sm6375" name="meledak-stone/kernel_xiaomi_sm6375" remote="github" revision="lineage-19.1" />
+        	<project path="vendor/xiaomi" name="CHRISL7/vendor_xiaomi_stone" remote="github" revision="stone" />
 
 		<!-- QCOM COMMON Dependencies -->
 		<remote name="Pixel" fetch="https://gitlab.pixelexperience.org" />
@@ -18,11 +19,5 @@
 	    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="github" revision="thirteen" />
 	    <project path="vendor/qcom/opensource/core-utils" name="PixelExperience/vendor_qcom_opensource_core-utils" remote="github" revision="thirteen" />
 	    <project path="vendor/qcom/opensource/commonsys/dpm" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" remote="github" revision="thirteen" />
-
-		<!-- Bengal HALs -->
-		<project path="hardware/qcom-caf/bengal/audio" name="PixelExperience/hardware_qcom-caf_bengal_audio" remote="github" revision="thirteen" />
-		<project path="hardware/qcom-caf/bengal/display" name="PixelExperience/hardware_qcom-caf_bengal_display" remote="github" revision="thirteen" />
-		<project path="hardware/qcom-caf/bengal/gps" name="PixelExperience/hardware_qcom-caf_bengal_gps" remote="github" revision="thirteen" />
-		<project path="hardware/qcom-caf/bengal/media" name="PixelExperience/hardware_qcom-caf_bengal_media" remote="github" revision="thirteen" />
 
 </manifest>
